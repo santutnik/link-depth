@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "",
+		"name": "Link depth API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": ""
+	},
+	"item": [
+		{
+			"name": "Service health check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1234/api/health",
+					"host": [
+						"localhost"
+					],
+					"port": "1234",
+					"path": [
+						"api",
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Link depth",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1234/api/get-link-separation",
+					"host": [
+						"localhost"
+					],
+					"port": "1234",
+					"path": [
+						"api",
+						"get-link-separation"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "https://en.wikipedia.org/wiki/Tom_Cruise",
+							"disabled": true
+						},
+						{
+							"key": "depthLimit",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "batchLimit",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
