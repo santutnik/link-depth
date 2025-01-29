@@ -1,7 +1,7 @@
 {
     "name": "link-depth-api",
     "version": "1.0.0",
-    "description": "A program that traverses a web page to measure the link depth between it and a second predefined wiki page",
+    "description": "An app that traverses a wiki web page to measure the link depth between it and a second predefined wiki page",
     "main": "src/server.ts",
     "scripts": {
         "test": "jest --config=jest.config.ts --coverage",
