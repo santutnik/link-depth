@@ -1,0 +1,22 @@
+{
+    "name": "link-depth-api",
+    "version": "1.0.0",
+    "description": "A program that traverses a web page to measure the link depth between it and a second predefined wiki page",
+    "main": "src/server.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/cheerio": "^0.22.35",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.10",
+        "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2"
+    }
+}
